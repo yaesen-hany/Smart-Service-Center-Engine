@@ -120,31 +120,9 @@ Option 9 shows the newest record with `peek()`; option 10 removes it with `pop()
 
 ---
 
-## 4. Screenshots
 
-Screenshots taken from the running program (Windows Command Prompt), using the seed data (IDs 101–107).
 
-### Main menu
-![Main menu](screenshots/01_menu.png)
-
-### Option 1 — Add New Request
-![Add new request](screenshots/02_add_request.png)
-
-### Option 4 — Display Pending Queue
-![Pending queue](screenshots/03_pending_queue.png)
-
-### Option 12 — Show Processed Requests
-![Processed requests](screenshots/04_processed_requests.png)
-
-### Option 6 — Sort Requests (Selection Sort by priority)
-![Sort requests](screenshots/05_sort_requests.png)
-
-### Option 11 — Show algorithm statistics
-![Algorithm statistics](screenshots/06_algorithm_statistics.png)
-
----
-
-## 5. Sample Terminal Session
+## 4. Sample Terminal Session
 
 Seed data: 5 records (IDs 1–5, loaded out of order from `requests.json`). Lines starting with `>` are user input. Menu redraws are omitted for brevity.
 
@@ -245,7 +223,7 @@ Goodbye!
 
 ---
 
-## 6. Notes
+## 5. Notes
 
 - **Sorting and searching scope:** option 6 sorts a *copy* of the waiting queue (the queue itself stays in FIFO order); option 7 searches the processed list; option 8 searches the waiting queue.
 - **Binary Search precondition:** the queue must be ordered by ID. This holds automatically because seed data is sorted by ID on load and new IDs always increase.
